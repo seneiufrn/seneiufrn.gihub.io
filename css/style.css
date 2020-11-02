@@ -1973,3 +1973,13 @@ ul.bottom_menu li {
 .titulo_paragrafo {
 	font-weight: bold;
 }
+
+.btn_inscricao {
+	color: white;
+	font-size: 22px;
+	background-color: #452E7F;	
+}
+
+.btn_inscricao:hover {
+	background-color: #1f1f1f;
+}
