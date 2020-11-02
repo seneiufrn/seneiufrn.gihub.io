@@ -345,10 +345,10 @@ button:focus {
 
 .top-header .navbar .navbar-collapse ul li a {
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 16px;
 	padding: 7px 20px;
 	position: relative;
-	font-weight: 400;
+	font-weight: bold;
 	overflow: hidden;
 	color: #000;
 }
@@ -384,7 +384,7 @@ a.navbar-brand {
 	animation-fill-mode: both;
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
-	background: #fff;
+	background: #e6e6e6;
 	z-index: 20;
 }
 
@@ -1968,4 +1968,8 @@ ul.bottom_menu li {
 .top-header.fixed-menu ul li:hover a,
 .top-header.fixed-menu ul li:focus a {
 	color: #0892fd !important;
+}
+
+.titulo_paragrafo {
+	font-weight: bold;
 }
