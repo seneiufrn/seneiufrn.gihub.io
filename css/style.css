@@ -1983,3 +1983,13 @@ ul.bottom_menu li {
 .btn_inscricao:hover {
 	background-color: #1f1f1f;
 }
+
+.link_youtube {
+	color: #452E7F;
+	font-weight: bold;
+}
+
+.link_youtube_white {
+	color: #ffffff;
+	font-weight: bold;
+}
