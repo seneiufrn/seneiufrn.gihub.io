@@ -6,22 +6,33 @@
 	<script src="certificado.js"></script>
 </head>
 <body>
-<a href="https://amandamaria.github.io/pcinclusao">Início</a>
+<a href="http://senei.com.br/">Início</a>
 <h1>Certificados do IX SEMINÁRIO NACIONAL EDUCAÇÃO E INCLUSÃO SOCIAL DE PESSOAS COM NECESSIDADES EDUCACIONAIS ESPECIAIS</h1>
 
 <div>
-	<label for="cpf">Informe o código de verificação:</label>
-	<input type="text" id="codigo" name="codigo"/>
-	<button onclick="verificarCertificado()">Verificar</button>
+	<fieldset>
+		<legend>Validação de certificado:</legend>
+		<label for="cpf">Informe apenas os números do CPF:</label>
+		<input type="number" id="cpf" name="cpf"/>
+		<button onclick="gerarCertificado(false)">Gerar Certificado</button>
+		<br/>
+		<div id="divLinkCertificado"></div>
+	</fieldset>
 </div>
-
+<br/>
 <br/>
 <div>
-	<label for="cpf">Informe apenas os números do CPF:</label>
-	<input type="number" id="cpf" name="cpf"/>
-	<button onclick="gerarCertificado(false)">Gerar Certificado</button>
+	<fieldset>
+		<legend>Validação de certificado:</legend>
+		<label for="cpf">Informe o código de verificação:</label>
+		<input type="text" id="codigo" name="codigo"/>
+		<button onclick="verificarCertificado()">Verificar</button>
+	</fieldset>
 </div>
-<div id="divLinkCertificado"></div>
+
+
+
+
 
 </body>
 </html>
