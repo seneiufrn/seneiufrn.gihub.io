@@ -33,14 +33,14 @@ function gerarCertificado(mainPage) {
 		var dados = result.feed.entry;
 		var valido = false;
 		for(var i=0; i<dados.length; i++) {
-			var cpfNaLista = dados[i].gsx$cpfnumbers.$t;			
+			var cpfNaLista = dados[i].gsx$cpfnumeros.$t;			
 			if(cpfNaLista === cpf) {
 				valido = true;
 				break;
 			}
 		}
 		if(valido) {
-			var linkCertificado = '<a target="_blank" class="btn btn-primary btn-learn" href="****/CERTIFICADO_####.pdf">BAIXAR CERTIFICADO</a>';
+			var linkCertificado = '<a target="_blank" class="btn btn-primary btn-learn" href="****/####.pdf">BAIXAR CERTIFICADO</a>';
 			if(mainPage) {
 				linkCertificado = linkCertificado.replace('****','certificados/files');
 			} else {
