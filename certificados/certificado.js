@@ -49,7 +49,7 @@ function gerarCertificado(mainPage) {
 			linkCertificado = linkCertificado.replace('####',cpf);
 			$('#divLinkCertificado').html(linkCertificado);			
 		} else {
-			alert('CPF INVÁLIDO');
+			alert('CPF INVÁLIDO OU PARTICIPANTE NÃO ATENDE AOS REQUISITOS PARA RECEBER O CERTIFICADO');
 		}
 	});
 }
